@@ -3,6 +3,8 @@
     <head>
         <title>Sine Wave Demo</title>
 
+        <link rel="stylesheet" type="text/css" href="../../shared/css/demos.css" />
+
         <script src="../../../flocking/flocking-core.js"></script>
         <script src="../../../flocking/flocking-parser.js"></script>
         <script src="../../../flocking/flocking-ugens.js"></script>
@@ -18,7 +20,7 @@
     "ugen": "flock.ugen.sinOsc",
     "freq": 440
 }</textarea>
-            <button id="synth-toggle">Play</button>
+            <button class="play-pause" id="synth-toggle">Play</button>
         </form>
         <script type="text/javascript">
             demo.synthDefEditorView("synthDef", "synth-toggle");

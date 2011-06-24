@@ -1,5 +1,5 @@
 th, td {
-    background-color: #DDDDDD;
+    background-color: #dddddd;
     padding: 10px;
 }
 th {
@@ -8,4 +8,17 @@ th {
 }
 td {
     width: 50px;
+}
+
+textarea {
+    padding: 1em;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    font-family: monospace;
+    font-size: 1.10em;
+}
+
+.play-pause {
+    float: right;
 }
